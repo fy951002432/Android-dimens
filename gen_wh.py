@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 
-
+dist = "/Users/fuyu/Desktop/dist/" #生成目录
 w_prefix_default = "w_" #默认宽前缀
 h_prefix_default = "h_" #默认高前缀
 w_suffix_default = "_w" #默认宽后缀
@@ -15,12 +15,6 @@ class Describe(object):
         self.w_suffix = w_suffix#宽后缀
         self.h_suffix = h_suffix#高后缀
 
-dist = "/Users/fuyu/Desktop/dist/" #生成目录
-distance = 1 #隔多少位
-start    = 0 #开始
-end      = 10000 #结束
-accuracy = 10.0  #多少位代表一个单位
-lines     = range(start,end + 1,distance)
 files    = (
 Describe("values",1,2),
 Describe("values-240x320",240,320),
@@ -29,6 +23,14 @@ Describe("values-480x800",480,800),
 Describe("values-720x1280",720,1280),
 Describe("values-1080x1920",1080,1920)
 )
+
+start    = 0        #开始
+end      = 10000    #结束
+accuracy = 10.0     #多少位代表一个单位
+distance = 1        #隔多少位
+
+lines     = range(start,end + 1,distance)
+
 import os
 def main():
     for flie in files:

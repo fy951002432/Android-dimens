@@ -1,6 +1,6 @@
 # -*-coding:utf-8-*-
 
-
+dist = "/Users/fuyu/Desktop/dist/" #生成目录
 prefix_default = "__" #默认前缀
 suffix_default = "__" #默认后缀
 dpi_default = 320     #默认屏幕密度 240x320:120 320x480:160 480x800:240 720x1280:320	 1080x1920:480
@@ -11,7 +11,6 @@ class Describe(object):
         self.prefix = prefix       #前缀
         self.suffix = suffix       #后缀
 
-dist = "/Users/fuyu/Desktop/dist/" #生成目录
 distance = 1 #隔多少位
 start    = 0 #开始
 end      = 10000 #结束
