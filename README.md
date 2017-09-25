@@ -11,7 +11,8 @@
 --end       结束数\
 --distance  隔多少数去取生成源\
 --accuracy  多少数算一个单位
-# -运行命令行输入-  python gen_dpi.py
+# -运行:命令行输入-  
+python gen_dpi.py
 
 # -gen_wh 根据宽高生成适配的px尺寸
 -需配置\
@@ -27,4 +28,5 @@
 --end       结束数\
 --distance  隔多少数去取生成源\
 --accuracy  多少数算一个单位
-# -运行命令行输入-   python gen_wh.py
+# -运行:命令行输入-   
+python gen_wh.py
