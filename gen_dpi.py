@@ -1,9 +1,9 @@
 # -*-coding:utf-8-*-
 
-dist = "/Users/fuyu/Desktop/dist/" #生成目录
-prefix_default = "__" #默认前缀
-suffix_default = "__" #默认后缀
-dpi_default = 320     #默认屏幕密度 240x320:120 320x480:160 480x800:240 720x1280:320	 1080x1920:480
+dist             = "/Users/fuyu/-/example-dpi/"#生成目录 结尾加/
+prefix_default   = "__"                        #默认前缀
+suffix_default   = "__"                        #默认后缀
+dpi_default      = 320                         #默认屏幕密度 240x320:120 320x480:160 480x800:240 720x1280:320	 1080x1920:480
 class Describe(object):
     def __init__(self, file_name, dpi, prefix = prefix_default,suffix = suffix_default):
         self.file_name = file_name #目录文件夹名称
