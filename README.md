@@ -1,5 +1,5 @@
 # -gen_dpi 根据屏幕密度生成适配的px尺寸
--需配置
+--需配置
 --dist           生成目录
 --prefix_default 前缀 
 --suffix_default 后缀 
@@ -11,7 +11,7 @@
 --end       结束数
 --distance  隔多少数去取生成源
 --accuracy  多少数算一个单位
-# - 运行 python gen_dpi.py
+# -运行命令行输入-  python gen_dpi.py
 
 # -gen_wh 根据宽高生成适配的px尺寸
 -需配置
@@ -27,4 +27,4 @@
 --end       结束数
 --distance  隔多少数去取生成源
 --accuracy  多少数算一个单位
-# - 运行 python gen_wh.py
+# -运行命令行输入-   python gen_wh.py
